@@ -1,0 +1,72 @@
+.form-container {
+    background-color: transparent;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%; /* Converted to percentage */
+  margin: 0 auto;
+  padding: 5vh; /* Converted to viewport height units */
+  border-radius: 1em; /* Converted to em units */
+  background-color:transparent;
+  box-shadow: 0 0.5em 0.75em rgba(255, 255, 255, 0.1);
+}
+
+form.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.form label {
+  margin-bottom: 1em; /* Converted to em units */
+  font-size: 1em; /* Converted to em units */
+  color: rgb(0, 0, 0);
+}
+
+.form input[type="text"],
+select {
+  width: 100%;
+  padding: 0.5em; /* Converted to em units */
+  border: none;
+  border-bottom: 0.1em solid #363636; /* Converted to em units */
+  border-radius: 0.1em;
+  background-color: transparent;
+  transition: border-bottom 0.3s ease-in-out;
+  color: rgb(248, 247, 247);
+  margin-bottom: 2em; /* Converted to em units */
+}
+
+.form input[type="text"]:focus,
+select:focus {
+  outline: none;
+  border-bottom: 0.2em solid #23527c;
+}
+
+.yoe_dropdown {
+  background-color:transparent;
+  color: black;
+}
+
+.yoe_dropdown option{
+  background-color:transparent;
+  color: black;
+}
+
+.applicant_dropdown {
+  background-color: transparent;
+  color: black;
+}
+
+
+
+button[type="submit"] {
+  width: 100%;
+  padding: 0.5em; /* Converted to em units */
+  border: none;
+  border-radius: 1em; /* Converted to em units */
+  background-color: #7c4fb0;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out
+}

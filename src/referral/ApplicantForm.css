@@ -1,0 +1,49 @@
+  .applicant-form-container {
+    background-color: transparent;
+    display: flex;
+  }
+
+  .container {
+    background-color: transparent;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%; /* Converted to percentage */
+    margin: 0 auto;
+    padding: 5vh; /* Converted to viewport height units */
+    border-radius: 0.5em; /* Converted to em units */
+    background-color: transparent;
+   
+  }
+  
+  form.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  label {
+    margin-bottom: 1em; /* Converted to em units */
+    font-size: 1em; /* Converted to em units */
+    color: rgb(0, 0, 0);
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 0.5em; /* Converted to em units */
+    border: none;
+    border-bottom: 0.2em solid #363636; /* Converted to em units */
+    border-radius: 0.4em;
+    background-color: transparent;
+    transition: border-bottom 0.3s ease-in-out;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2em; /* Converted to em units */
+  }
+  
+  input[type="text"]:focus,
+  select:focus {
+    outline: none;
+    border-bottom: 0.2em solid #23527c;
+  }

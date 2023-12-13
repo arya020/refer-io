@@ -1,0 +1,20 @@
+.s-alert-box {
+    min-width: 250px;
+}
+.s-alert-close::before, .s-alert-close::after {
+    width: 2px;
+}
+
+.app {
+    background: linear-gradient(50deg, rgb(251, 242, 255) 0%, rgba(255,238,253,1) 7%, rgb(246, 233, 250) 12%, rgba(241,235,255,1) 20%, rgba(237,235,255,1) 26%, rgba(240,235,255,1) 34%, rgba(237,236,255,1) 43%, rgb(230, 232, 255) 50%, rgba(233,237,255,1) 59%, rgba(232,241,255,1) 67%, rgba(231,243,254,1) 75%, rgb(227, 247, 255) 83%, rgb(215, 238, 248) 90%, rgb(210, 243, 250) 97%); /* Set your background color */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.app-body {
+    width: auto;
+    background:inherit;
+    height: 100vh;
+    flex: 1;
+}
+  

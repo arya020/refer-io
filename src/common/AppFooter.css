@@ -1,0 +1,87 @@
+.app-footer {
+    background-color: #000000; /* Set the background color */
+    color: #fff; /* Set the text color */
+    padding: 2%; /* Add some padding for better visibility */
+    text-align: center; /* Center the text */
+    position: relative;
+    margin-top: auto;
+    width: 100%; /* Take up the full width of the viewport */
+}
+
+.footer-container {
+    max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+  
+  /* Style each section of the footer */
+  .footer-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    font-size: 0.9em;
+  }
+  
+  /* Style the quick links */
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style the social icons */
+  .social-icons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+ 
+  }
+  
+  .social-icons li {
+    margin-right: 10px;
+    
+  }
+  
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  
+  /* Style the bottom footer with copyright notice */
+  .bottom-footer {
+    background-color: #222;
+    padding: 10px 0;
+    color: #ccc;
+  }
+  
+  .bottom-footer p {
+    font-size: 0.8em;
+  }
+  
+  /* Add some responsiveness for smaller screens */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .footer-section {
+      margin-bottom: 20px;
+    }
+  }
