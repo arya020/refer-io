@@ -1,16 +1,14 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Collapse, Row, Col, Card } from 'react-bootstrap';
-import './Sidebar.css';
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { Button, Collapse, Card } from 'react-bootstrap'
+import './Sidebar.css'
 
-
-function Sidebar({ handleExperienceChange, handleLocationChange, locations }) {
-
+function Sidebar () {
   return (
-  
+
     <div className='Sidebar'>
-          <p>Filter By</p>
-          <Button
+      <p>Filter By</p>
+      <Button
         data-bs-toggle="collapse"
         data-bs-target="#collapseyoe"
         aria-expanded="false"
@@ -52,11 +50,8 @@ function Sidebar({ handleExperienceChange, handleLocationChange, locations }) {
         <div></div>
       </Collapse>
     </div>
-   
-  );
+
+  )
 }
 
-export default Sidebar;
-
-
-
+export default Sidebar
