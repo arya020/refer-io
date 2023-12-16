@@ -1,14 +1,4 @@
 [[redirects]]
-  from = "/login*"
-  to = "/oauth2/redirect"
-  status = 200
-
-[[redirects]]
-  from = "/signup*"
-  to = "/oauth2/redirect"
-  status = 200
-
-[[redirects]]
   from = "/oauth2/redirect*"
   to = "/referrals"
   status = 200
