@@ -1,5 +1,4 @@
 [[redirects]]
-  from = "/oauth2/redirect"
+  from = "/oauth2/*"
   to = "/referrals"
   status = 200
-  query = { token = ":token" }
