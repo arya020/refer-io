@@ -1,5 +1,9 @@
 [[redirects]]
+  from = "/login"
+  to = "https://refer-io-o8za.onrender.com/oauth2/authorize/google?redirect_uri=/oauth2/redirect"
+  status = 200
+
+[[redirects]]
   from = "/oauth2/redirect"
   to = "/referrals"
   status = 200
-  query = { token = ":token" }
