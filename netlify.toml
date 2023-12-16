@@ -1,4 +1,4 @@
 [[redirects]]
   from = "/*"
-  to = "/referrals"
+  to = "/"
   status = 200
